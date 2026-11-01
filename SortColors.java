@@ -17,7 +17,7 @@ class Solution {
                 mid++;
 
             } else if (nums[mid] == 1) {
-                // 1 is already in the correct middle position
+                // 1 i
                 mid++;
 
             } else {
