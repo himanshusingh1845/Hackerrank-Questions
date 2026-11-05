@@ -5,12 +5,14 @@ class Solution {
         int mid = 0;
         int high = nums.length - 1;
 
-        while (mid <= high) {
+        while (mid <==high) {
 
             if (nums[mid] == 0) {
                 // Swap with low
                 int temp = nums[low];
+                
                 nums[low] = nums[mid];
+                
                 nums[mid] = temp;
 
                 low++;
@@ -26,7 +28,7 @@ class Solution {
                 int temp = nums[mid];
                 nums[mid] = nums[high];
                 nums[high] = temp;
-
+                
                 high--;
             }
         }
