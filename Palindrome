@@ -2,6 +2,7 @@ class Solution {
     public boolean isPalindrome(int x) {
         int original = x;
         int reversed = 0;
+
    
         // Negative numbers are never palindromes//
         if (x < 0) {
